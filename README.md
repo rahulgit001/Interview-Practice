@@ -15,7 +15,7 @@ npm run dev
 
 In this repository, dependencies are already configured; run `npm install` and then `npm run dev`.
 
-The site deploys to GitHub Pages from `main` using the `Deploy to GitHub Pages` workflow.
+The `Deploy to GitHub Pages` workflow builds the app and refreshes the root `index.html` and `assets/` files used by branch-based GitHub Pages. It also uploads the Vite build for GitHub Actions-based Pages deployments.
 
 ## Components
 
