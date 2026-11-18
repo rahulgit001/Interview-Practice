@@ -15,6 +15,8 @@ npm run dev
 
 In this repository, dependencies are already configured; run `npm install` and then `npm run dev`.
 
+The site deploys to GitHub Pages from `main` using the `Deploy to GitHub Pages` workflow.
+
 ## Components
 
 - **Header.jsx** — Shows the study title, progress bar, Known/Review/Total counts, and theme toggle.
